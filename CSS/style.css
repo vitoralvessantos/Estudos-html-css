@@ -13,11 +13,27 @@ text-align: center;
     border-color: white;
     border-radius: 20px;
     margin: auto;
+    
 }
 #testeid{
     font-size: 150%;
+
 }
 .titulosection{
     padding: 25px;
     color: white;
+}
+.mainlist{
+    margin: auto;
+    margin: 0%;
+    border: 0ch;
+    padding-bottom: 20px;
+    padding-left: 50%;
+}
+a{
+    color: white;
+}
+.item{
+    /*margin-bottom: 15px;*/
+    
 }

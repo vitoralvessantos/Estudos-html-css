@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1,p {
+text-align: center;
+}
+
+.teste{
+    background-color: rgb(46, 46, 46);
+    border-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+#testeid{
+    font-size: 150%;
+}
+.titulosection{
+    padding: 25px;
+    color: white;
+}

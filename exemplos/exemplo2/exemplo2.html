@@ -11,16 +11,40 @@
     <picture>
         <!-- A ordem do source media neste caso é importante, devemos iniciar pelas imagens menores para as maiores. -->
         <h1 aling="center">Imagens que se adaptam ao tamanho da tela</h1>
+        <p>Redimensione a janela para visualizar as imagens sendo trocadas.</p>
+
         <source media="(max-width: 820px )" srcset="imagens/P.png" type="image/png">
         <source media="(max-width: 1220px )" srcset="imagens/M.png" type="image/png">
         <img src="imagens/G.png" alt="Foto Grande">
-
-        <h1>Reproduzindo audio</h1>
-        <audio src="media/memories-david-gueta.mp3" controls></audio>
-        
     </picture>
-    <hr>
-    <hr>
+
+    <hr><hr>
+
+    <!-- Ao utilizar vídeos e imagens é importante se atentar a compatibilidade dos navegadores com os tipos de arquivos, e possuir variações que permitam rodar na maioria deles na medida do possivel-->
+    <h1>Reproduzindo audio</h1>
+    <audio class="audio" controls>
+        <source src="media/memories-david-gueta.mp3" type="audio/mpeg">
+        
+    </audio>
+    <script>
+        var music = document.getElementById("audio");
+        music.volume = 0.1;
+    </script>
+    <hr><hr>
+
     <h1>Reproduzindo Videos</h1>
+    <p>Ao exibir vídeos em nossos sites devemos nos atentar ao tamanho do arquivo, devido a custos de hospedagem, e tambem ao formato utilizado. </p>
+    <p>Devemos ter cuidado em utilizar hospedagem própria, pois tem que se levar em consideração os tamanho do arquivos devido ao trafego de dados e consumo de banda. Tudo isto possui um custo.</p>
+
+    <h3>Hospedagem própria</h3>
+    <video width="500px" height="300px" autoplay controls loop>
+        <source src="media/ocean.mp4" type="video/mp4">
+        <source src="media/sky.webm" type="video/webm">
+
+        <p><i>Seu navegador não possui compatibilidade com a reprodução de vídeos</i></p>
+    </video>
+    <h3>Hospedagem Terceiros</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yltlJEdSAHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </body>
 </html>

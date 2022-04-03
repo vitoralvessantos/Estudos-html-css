@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Source Media</title>
+</head>
+<body>
+    <picture>
+        <!-- A ordem do source media neste caso é importante, devemos iniciar pelas imagens menores para as maiores. -->
+        <h1 aling="center">Imagens que se adaptam ao tamanho da tela</h1>
+        <source media="(max-width: 820px )" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1220px )" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Foto Grande">
+
+        <h1>Reproduzindo audio</h1>
+        <audio src="media/memories-david-gueta.mp3" controls></audio>
+        
+    </picture>
+    <hr>
+    <hr>
+    <h1>Reproduzindo Videos</h1>
+</body>
+</html>

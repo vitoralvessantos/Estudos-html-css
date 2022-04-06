@@ -29,10 +29,12 @@ main{
     border-radius: 10px;
     margin: 10px;
 }
+
 img{
-    width: 100px; 
-    float: left; 
     border-radius: 10px;
+    margin: auto;
+    height: 100px;
+    width: 100px;
 }
 
 article{
@@ -43,6 +45,9 @@ article{
     border-radius: 10px;
     background-color: gray;
 
+}
+header > h1{
+    margin: auto;
 }
 
 article > a > h2{
@@ -67,6 +72,8 @@ aside > p{
 }
 a:hover{
     background-color: lightgrey;
+    width: auto;
+    margin: auto;
 }
 footer{
     text-align: center;

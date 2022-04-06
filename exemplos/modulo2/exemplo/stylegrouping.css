@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    
+}
+header{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+nav{
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+section{
+    margin: 20px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+img{
+    width: 100px; 
+    float: left; 
+    border-radius: 10px;
+}
+
+article{
+    padding: 20px;
+    
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    background-color: gray;
+
+}
+
+article > a > h2{
+    text-align: center;
+}
+
+/*O sinal de maior serve para indicar que o estilo devera ser aplicado ao elemento <a> que seja filho de <nav> */
+article >p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+nav > a{ 
+    padding: 5%;
+
+}
+
+
+aside > p{
+    font-size: 12px;
+    
+}
+a:hover{
+    background-color: lightgrey;
+}
+footer{
+    text-align: center;
+}

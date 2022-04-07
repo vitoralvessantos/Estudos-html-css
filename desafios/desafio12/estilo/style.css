@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: Arial, Helvetica, sans-serif;
+    
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,6 +16,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{
@@ -18,6 +28,8 @@ header{
 }
 header h1{
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
 }
 a{
     color: white;
@@ -30,6 +42,12 @@ a:hover{
 section{
     padding: 10% 5%;
     line-height: 1.8em;
+    font-family: var(--fonte3);
+    font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .normal{
@@ -39,8 +57,28 @@ section{
 .imagem{
     background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.795);
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.582);
+    border-radius: 3px 15px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.795);
 }
 
+#img01{
+    background-image: url('../imagens/bg01.jpg');
+    background-position: right center;
+    
+}
+#img02{
+    background-image: url('../imagens/bg02.jpg');
+    
+}
 
 
 footer{

@@ -1,40 +1,51 @@
+
+:root{
+    --fontePrincipal: Arial, Helvetica, sans-serif;
+    --cor1: rgb(51, 51, 51);
+}
+
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+}
+
 body{
-    background-color: aquamarine;
+    background-color: var(--cor1);
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-h1,p {
-text-align: center;
+.exemplos{
+    padding-top: 20px;
+    background-color: gray;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
 }
 
-.teste{
-    background-color: rgb(46, 46, 46);
-    border-color: white;
-    border-radius: 20px;
-    margin: auto;
-    display: inline-block;
-    
+li{
+    padding-bottom: 10px;
+    text-align: center;
 }
-#testeid{
-    font-size: 150%;
+a:hover{
+    
+    padding: 5px;
+    background-color: rgb(99, 99, 99);
+    border: 5px;
+}
 
+footer{
+    padding: 10px;
+    text-align: center;
 }
-.titulosection{
-    padding: 25px;
-    color: white;
-}
-.mainlist{
-    margin: auto;
-    margin: 0%;
-    border: 0ch;
-    padding-bottom: 20px;
-    padding-left: 50%;
-}
-a{
-    color: white;
-}
-.item{
-    /*margin-bottom: 15px;*/
-    
-}
+
